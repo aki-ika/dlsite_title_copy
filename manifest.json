@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "タイトルをコピーできるようにするやつ",
+  "version": "1.0",
+  "description": "タイトルをコピーできるようにするやつ",
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.dlsite.com/*"],
+      "js": ["dist/main.js"]
+    }
+  ]
+}
